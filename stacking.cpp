@@ -31,7 +31,7 @@ void pop()
 
 void display()
 {
-    for(int i=4;i>=0;i--){
+    for(int i=top;i>=0;i--){
     cout << stack[i]<<endl;
     }
 }
